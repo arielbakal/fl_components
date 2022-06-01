@@ -4,7 +4,7 @@ class Listview1Screen extends StatelessWidget {
    
   const Listview1Screen({Key? key}) : super(key: key);
 
-  final options = const ['Minecraft', 'Biosock', 'Osu!', 'League of Legends'];
+  final options = const ['Minecraft', 'Bioshock', 'Osu!', 'League of Legends'];
   
   @override
   Widget build(BuildContext context) {
