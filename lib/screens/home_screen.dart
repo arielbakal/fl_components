@@ -1,4 +1,5 @@
 import 'package:fl_components/router/app_routes.dart';
+import 'package:fl_components/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 
@@ -12,11 +13,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Flutter Components'),
-        elevation: 0,
       ),
       body: ListView.separated(
         itemBuilder: (context, index) => ListTile(
-          leading: Icon( AppRoutes.menuOptions[index].icon, color: Colors.indigo ),
+          leading: Icon( AppRoutes.menuOptions[index].icon, color: AppTheme.primary ),
           title: Text(AppRoutes.menuOptions[index].name),
           onTap: () {
 
