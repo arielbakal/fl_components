@@ -17,7 +17,18 @@ class CardScreen extends StatelessWidget {
 
           CustomCardType1(),
           SizedBox( height: 10),
-          CustomCardType2(),
+          CustomCardType2(name: 'Nebulose', imageUrl: 'https://wallpaperaccess.com/full/235201.jpg'),
+          SizedBox( height: 10),
+          CustomCardType2(name: 'Galaxy', imageUrl: 'https://wallpaperaccess.com/full/511885.jpg'),
+          SizedBox( height: 10),
+          CustomCardType2(imageUrl: 'https://wallpaperaccess.com/full/655217.jpg'),
+          SizedBox( height: 10),
+          CustomCardType2(name: 'From space sunset',imageUrl: 'https://wallpaperaccess.com/full/316418.jpg'),
+          SizedBox( height: 10),
+          CustomCardType2(imageUrl: 'https://wallpaperaccess.com/full/4973342.jpg'),
+          SizedBox( height: 10),
+          CustomCardType2(imageUrl: 'https://wallpaperaccess.com/full/7036765.jpg'),
+          
 
         ],
       ),
